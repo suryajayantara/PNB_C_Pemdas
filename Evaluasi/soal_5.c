@@ -18,7 +18,7 @@ void main()
 
     kKecil = sBox / 5;
 
-    sSemua = sBox < 5 && sBox > 0 ;
+    sSemua = sBox < 5 && sBox > 0 || sBox >5 && sBox < 10 ;
 
     kKecil += sSemua;
 
