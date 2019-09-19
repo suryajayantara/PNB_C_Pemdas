@@ -13,12 +13,12 @@ void main()
     kBesar = kemasan/20;
     sBox = kemasan%20;
 
-    kSedang = kemasan/10;
+    kSedang = sBox/10;
     sBox = kemasan%10;
 
     kKecil = sBox / 5;
 
-    sSemua = sBox < 5 && sBox > 0 || sBox >5 && sBox < 10 ;
+    sSemua = sBox < 5 && sBox > 0  ;
 
     kKecil += sSemua;
 
